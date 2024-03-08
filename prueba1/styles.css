@@ -1,29 +1,65 @@
-html {
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+:root {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 62.5%;
+  --azul: #124076;
+  --verde: #7f9f80;
+  --amarillo: #f9e897;
+  --naranja: #ffc374;
+  --blanco: #ffffff;
+  --negro: #000000;
+}
+
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 62.5%;
+}
+
+main {
+  background-color: var(--azul);
+  padding: 20px;
+  color: var(--blanco);
+  max-width: 425px;
+  margin: 10px auto;
+  border-radius: 15px;
+  box-shadow: 7px 7px 0px 4px var(--verde);
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
+  text-align: center;
+  text-decoration: underline;
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
+  margin-top: 40px;
 }
 body > ul {
   list-style: disc;
 }
 
 ul {
-  padding-left: 20px;
   list-style: decimal;
 }
 
-li {
+li,
+p,
+span {
   font-size: 1.6rem;
   padding: 7px 0px;
+  font-weight: lighter;
+}
+
+span {
+  margin-left: 10px;
+}
+
+input {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.8rem;
+  padding-inline-start: 15px;
+  margin: auto;
 }
