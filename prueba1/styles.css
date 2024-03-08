@@ -1,0 +1,29 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+body > ul {
+  list-style: disc;
+}
+
+ul {
+  padding-left: 20px;
+  list-style: decimal;
+}
+
+li {
+  font-size: 1.6rem;
+  padding: 7px 0px;
+}
