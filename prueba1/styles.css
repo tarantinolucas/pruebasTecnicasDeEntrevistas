@@ -19,12 +19,12 @@ body {
 
 main {
   background-color: var(--azul);
-  padding: 20px;
+  padding: 30px;
   color: var(--blanco);
-  max-width: 425px;
-  margin: 10px auto;
+  max-width: 768px;
+  margin: 10px auto 30px auto;
   border-radius: 15px;
-  box-shadow: 7px 7px 0px 4px var(--verde);
+  box-shadow: 5px 5px 0px 4px var(--verde);
 }
 
 h1 {
@@ -57,9 +57,28 @@ span {
   margin-left: 10px;
 }
 
-input {
+input,
+button {
   font-family: "Space Grotesk", sans-serif;
-  font-size: 1.8rem;
-  padding-inline-start: 15px;
-  margin: auto;
+  font-size: 1.6rem;
+  padding: 10px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  margin-top: 15px;
+  border-radius: 7px;
+  background-color: var(--verde);
+  border: solid 1px var(--negro);
+  cursor: pointer;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+button:hover {
+  font-weight: 700;
+  background-color: var(--naranja);
+  transition: ease 2s;
 }
